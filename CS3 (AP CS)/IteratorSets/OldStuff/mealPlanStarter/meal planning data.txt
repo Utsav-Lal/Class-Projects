@@ -1,0 +1,184 @@
+fresh vegetables
+broccoli
+tomato
+potato
+sweet potato
+carrots
+cauliflower
+purple cabbage
+green cabbage
+lettuce
+kale
+mustard greens
+baby spinach
+bok choy
+zucchini
+yellow squash
+butternut squash
+mushrooms
+shiitake
+green beans
+cucumber
+green onion
+jalapeno
+avocado
+jalapeno
+\\fresh fruit
+bananas
+apples
+pears
+peaches
+plums
+nectarines
+raspberries
+blueberries
+strawberries
+blackberries
+oranges
+cherries
+\\fresh spices
+garlic
+ginger
+lemon
+lime
+parsley
+cilantro
+dill
+mint
+\\frozen produce
+frozen peas
+frozen spinach
+frozen strawberries
+frozen pineapple
+frozen berries
+frozen mango
+\\dairy products and alts
+yogurt
+soy milk
+tofu
+eggs
+ricotta
+mozzarella cheese
+cream cheese
+whipped cream
+sour cream
+oat milk
+fresh mozzarella
+parmesan cheese
+cheddar cheese
+cotija cheese
+mascarpone
+butter
+\\noodles and rice
+lasagna noodles
+egg noodles
+spaghetti
+linguine
+vermicelli
+ramen noodles
+jasmine rice
+sticky rice
+brown rice
+spring roll wrappers
+basmati rice
+\\fish
+salmon
+sardines
+shrimp
+scallops
+tuna
+haddock
+cod
+\\meat
+chicken breasts
+chicken thighs
+pork chop
+lamb loin
+filet mignon
+St. Louis style ribs
+baby back ribs
+ground turkey breast
+ground beef
+ground pork
+Italian sausage
+Polish sausage
+pork shoulder
+ham
+bacon
+\\breads
+frozen naan
+frozen paratha
+bread
+baguette
+pita bread
+tortilla chips
+corn tortillas
+flour tortillas
+puff pastry
+pie crust
+\\sauces
+miso paste
+fish sauce
+soy sauce
+hoisin sauce
+hummus
+pesto
+tzatziki sauce
+brown mustard
+tomato paste
+coconut cream
+taco bell sauce
+\\canned and dried goods
+sundried tomatoes
+artichoke hearts
+corn
+olives
+canned chickpeas
+canned mackerel
+black beans
+dried chickpeas
+dried split peas
+dried pinto beans
+nori
+\\vinegars and oils
+apple cider vinegar
+rice wine vinegar
+rice vinegar
+chiu chow chili oil
+shaoxing vinegar
+vegetable oil
+olive oil
+\\baking aisle
+corn starch
+baking powder
+baking soda
+brown sugar
+white sugar
+chocolate chips
+all purpose flour
+active dry yeast
+steel cut oats
+walnuts
+pecans
+pumpkin seeds
+nut butter
+roasted almonds
+roasted peanuts
+sesame seeds
+panko
+\\spices
+allspice
+chili powder
+cumin (ground)
+cumin (whole)
+bay leaf
+lemongrass
+garlic powder
+nutmeg (whole)
+nutmeg (ground)
+vanilla
+cinnamon
+honey
+salt
+black peppercorns
+white peppercorns
