@@ -1,1 +1,25 @@
-These are what I made for my Advanced Datastructures and Algorithms Class
+These are what I made for my Advanced Datastructures and Algorithms Class in no particular order:
+- AVL trees
+- Binary Trees
+- Binary Heaps
+- Binomial Heaps
+- Depth First Search
+- Dijkstra's Algorithm
+- Cut Node Finding Algorithm
+- Cycle Finding Algorithm
+- Priced Rod Dividing with Dynamic Programming
+- Open Hashing and Chain Hashing
+- Karatsuba Multiplication
+- Retrieval, Deletion at Tail, and Reversal of Linked Lists
+- Linear Maximum Finding
+- String Histogram Creation
+- Linear Time Median Algorithm
+- Merge Sort
+- Max Subarray Algorithm
+- Quicksort
+- Minimum Path
+- Prim's Algorithm
+- Kruskal's Algorithm
+- Stacks
+- Stable Matching Problem
+- Permutation Finder, Subset Sum, and Queens on a Chessboard with Backtracking
