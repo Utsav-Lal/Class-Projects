@@ -1,0 +1,47 @@
+1.
+At each relaxation operation, if each of the nodes' distances correspond to a valid path that ends at them, then when the distance to one of the nodes is updated, the new distance corresponds to an extension of a valid path to the other and thus is a valid path to the node. Since all nodes except A start with a value of infinity, which correspond to a valid path, every distance that results after any amount of relaxation operations corresponds to an existing path to that node.
+
+Every time a relaxation occurs, the distance to a node either decreases or stays the same. This corresponds with finding a better path. Since the graph is finite, there are only a finite amount of paths that lead to a better value than the new node distance. Thus, each node's value can decrease only a finite amount of times. Thus, only a finite amount of relaxations that change the values can occur, meaning that the process eventually terminates.
+
+When this happens, for a node v, let w be its neighbor along the true path to v. If d(w) = D(w), then d(v) = D(v). The true path to v is an extension of the true path to w, so D(v) = D(w)+e, where e is the value of the edge vw. d(v) cannot be less than D(v), as there are no paths with smaller values than the true path, so d(v) >= D(v). We cannot have d(v) > D(v), as then we can relax on edge vw and update d(v) to D(v)=D(w)+e, and we have that no new edge relaxations can be made. Thus, d(v)=D(v). Since d(A)=D(A)=0, and A is in all true paths from A, all nodes now have as their distances the true path distance by induction.
+
+Now, every time the graph is relaxed, if a node v has a neighbor w on its true path with d(w) = D(w), then if d(v) > D(v), the relaxation makes d(v)=d(w)+e=D(w)+e=D(v), where e is the length of vw. This means that if all nodes with a true path of length n in terms of the number of edges have their true path distances, then relaxing all the edges will result in all the nodes with a true path length of n+1 now having the property. Thus, the amount of times we relax all the edges is the depth of the tree created by the true path, which is at most n, the amount of nodes. feSince there are at most n^2 edges, this runs in O(n^3).
+
+2.
+No, this doesn't work.
+Consider {(A, B):1, (A, C):0.25, (B, E):1, (B, D):0.25, (C, D):0.25}
+
+We start with the distances {A:0, B:infinity, C:infinity, D:infinity, E:infinity}
+
+First, we put A in the queue:
+
+Queue: [A]
+
+We evaluate A, relax its edges, and add its undiscovered neighbors to the queue:
+
+Distances: {A:0, B:1, C:0.25, D:infinity, E:infinity}
+Queue: [C, B]
+
+Dequeue B, evaluate it, relax its edges, and add its undiscovered neighbors to the queue:
+
+Distances: {A:0, B:1, C:0.25, D:1.25, E:2}
+Queue: [D, E, C]
+
+Dequeue C, evaluate it, relax its edges, and add its undiscovered neighbors to the queue:
+
+Distances: {A:0, B:1, C:0.25, D:0.5, E:2}
+Queue: [D, D, E]
+
+Dequeue E, evaluate it, relax its edges, and add its (nonexistent) undiscovered neighbors to the queue:
+
+Distances: {A:0, B:1, C:0.25, D:0.5, E:2}
+Queue: [D, D]
+
+Dequeue D, evaluate it, relax its edges, and add its (nonexistent) undiscovered neighbors to the queue:
+
+Distances: {A:0, B:0.75, C:0.25, D:0.5, E:2}
+Queue: [D]
+
+D is already discovered, so we terminate.
+
+The shortest path to E from A is said to have length 2, but the path (A, C, D, E) with length 1.75 is shorter, so this fails.

@@ -1,0 +1,22 @@
+Problem 1:
+a.
+      1
+   2     4
+ 5   3
+
+b.
+      1
+   2     3
+ 4   5 6   7
+
+Problem 2:
+b.
+The children of A may be less than C. To fix it, we need to assume that all children of A are greater than C. If this happens, then bubbling up maintains this, as B and all its children are greater than C which is greater than A.
+
+Problem 3:
+a.
+P(k) = (k+k%2)/2-1
+
+b.
+L(k) = 2k+1
+R(k) = 2k+2

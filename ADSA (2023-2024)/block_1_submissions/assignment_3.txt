@@ -1,0 +1,6 @@
+Problem 2:
+Enqueue	- push item into one stack
+Dequeue - pop and push all items into the other stack, and take the last one. Move everything back.
+
+Problem 3:
+Have a variable store the minimum element. An element x is pushed as normal, unless it are less than the min or the list is empty. If the list is empty, x is made as the head and the min is set to it. If x is less than the min, then a copy of the current min is pushed, after which x is pushed and made the new min. This way, when the min is popped, the element behind it is too and it points to the previous min.
